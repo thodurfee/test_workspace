@@ -11,5 +11,9 @@ git remote rm my_redundant
 all of the above works.
 you set up a remote. you have another remote. It turns out you can refer to the object.remote name "my_redundant" rather than specify the file path all over again. You can also remove old remotes so you can update it to a new name.
 
-This was needed because in the personal repository I use test_workspace, but in the umn repository, I use example
+This was needed because in the personal repository I use ``test_workspace``, but in the umn repository, I use ``example``
+
+the problem is that this makes a reference to an empty set after you delete it. You need to use the path if you want to make sure that they remote is the same and not dependant on the updating of another remote 
+
+
 
