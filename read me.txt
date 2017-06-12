@@ -1,0 +1,15 @@
+it turns out that remotes are sotred locally, so I don't need to necessarily need to add a new remote every new session. 
+
+Perhaps this cache gets cleared every so often, but this may save some time.
+
+git remote add my_remote_name "https://location"
+git remote add my_redundant my_remote_name
+
+git remote rm my_redundant
+
+
+all of the above works.
+you set up a remote. you have another remote. It turns out you can refer to the object.remote name "my_redundant" rather than specify the file path all over again. You can also remove old remotes so you can update it to a new name.
+
+This was needed because in the personal repository I use test_workspace, but in the umn repository, I use example
+
