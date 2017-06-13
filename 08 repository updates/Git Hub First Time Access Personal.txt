@@ -16,7 +16,6 @@
 
  git checkout -b new_branch
  git checkout new_branch
-
  
 git clone https://github.com/thodurfee/example.git
 
@@ -30,6 +29,5 @@ git clone https://github.com/thodurfee/example.git
 #
 
  git commit -m "Insert Text"
- git push --set-upstream origin_personal master
- git push --set-upstream origin_school master
+ git push --set-upstream origin_personal new_branch
 
