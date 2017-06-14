@@ -25,6 +25,7 @@
 
  git checkout new_branch
  git status
+<<<<<<< HEAD
  git add "read me.txt"
  git add "note taking template.docx"
  git add "administrative docs/"
@@ -44,3 +45,12 @@
  git push --set-upstream origin_personal master
  git push --set-upstream origin_school master
 
+=======
+
+git add .
+git rm -r --cached "09 local files only"
+
+
+ git commit -m "Insert Text"
+ git push --set-upstream origin_personal new_branch
+>>>>>>> 1c295455ed117309d59f8b17b859a657a2b47482
